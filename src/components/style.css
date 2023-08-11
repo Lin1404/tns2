@@ -1,0 +1,469 @@
+
+.header {
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    display: grid;
+}
+
+.VideoTag {
+    width: -webkit-fill-available;
+}
+
+@media (max-width: 480px) {
+    .headerGroup {
+        flex-direction: column;
+    }
+
+    .paddingTop {
+        padding-top: 81%;
+        background-color: #eff8ff;
+    }
+
+    .itemContainer {
+        flex-direction: column;
+    }
+
+    .VideoTag {
+        width: 100%;
+    }
+
+    .modulesSection {
+        flex-direction: column;
+    }
+
+    .map > iframe {
+        width: 100%;
+    }
+
+    .moduleButtonContainer {
+        margin: 2%;
+    }
+    .tnsTitle {
+        padding-top: 5%;
+    }
+
+    .tnsTitle > img {
+        width: 20%;
+        padding-right: 0.5rem;
+    }
+    
+    .reviewModulepaddingTop {
+        padding-top: 10%;
+    }
+
+    .certificationsLogo {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .headerPadding {
+        padding-top: 80%;
+    }
+
+    .greenAnnouncementContainer {
+        background-size: 100%;
+        background-repeat: repeat-y;
+    }
+
+    .certificationsLogo > img {
+        width: 80%;
+        padding: 10% 5% 5% 5%;
+    }
+
+    .reviewLinksContainer > a {
+        width: 15%;
+    }
+}
+
+@media (max-width: 320px) {
+    .headerPadding {
+        padding-top: 90%;
+    }
+}
+
+@media (max-width: 375px) {
+    .paddingTop {
+        padding-top: 110%;
+        background-color: #eff8ff;
+    }
+}
+
+@media (min-width: 480px) {
+    .infoContainer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .header {
+        grid-template-columns: 60% 40%;
+    }
+
+    .paddingTop {
+        padding-top: 11%;
+        background-color: #eff8ff;
+    }
+
+    .tnsTitle {
+        font-size: 30px;
+        gap: 1rem;
+    }
+
+    .tnsTitle > img {
+        width: 5%;
+        padding-right: 0.5rem;
+    }
+
+    .headerPadding {
+        padding-top: 15%;
+    }
+
+    .greenAnnouncementContainer {
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+    }
+
+    .certificationsLogo > img {
+        width: 20%;
+        padding: 1rem;
+    }
+     
+    .reviewLinksContainer > a {
+        width: 7%;
+    }
+}
+.backgroundColor {
+    background-color: aliceblue;
+}
+
+.headerGroup {
+    display: flex;
+    padding: 0 5%;
+    height: 80%;
+    align-items: center;
+}
+
+.report {
+    background-color: khaki;
+    border-radius: 15px;
+    align-self: center;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2), -18px -18px 30px rgba(255, 255, 255, 1);
+}
+
+.buttonContainer {
+    display: flex;
+    padding-right: 10%;
+    justify-content: flex-end;
+}
+
+.clickButton {
+    width: 60px;
+}
+
+.contactButton {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2), -18px -18px 30px rgba(255, 255, 255,1);
+}
+.contactButton:active{
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 2), 0 0 0 rgba(255, 255, 255,0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.1), 
+    inset -18px -18px 30px rgba(255, 255, 255, 1);
+}
+
+.contactButton:active TaxiAlertIcon{
+    width: 30px;
+}
+.img {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2), -18px -18px 30px rgba(255, 255, 255,1);
+    transition: all 0.3s ease-out;
+    border-style: solid;
+    border-color: #1b73bc;
+    background-color: #e3edfe;
+}
+
+.img:active{
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 2), 0 0 0 rgba(255, 255, 255,0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.1), 
+    inset -18px -18px 30px rgba(255, 255, 255, 1);
+}
+
+img:active img{
+    width:40px;
+}
+.buttonLetter:active .buttonLetter{
+    width: 30px;
+}
+.buttonLetter {
+    width: 60px;
+    transition: all 0.3 ease-out;
+}
+
+.carousel {
+    width: 80%;
+    align-self: center;
+    padding-top: 3%;
+}
+
+.reveiews {
+    display: grid;
+}
+
+.reveiews > p {
+    font-family: initial;
+    font-size: small;
+}
+
+.footerContainer {
+    display: grid;
+}
+
+.tnsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b73bc;
+}
+
+.infoContainer {
+    display: grid;
+    padding: 1% 3%;
+}
+
+.infoDetail > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+    margin: 0 5% 5% 5%;
+}
+.map > h3 {
+    max-inline-size: fit-content;
+}
+
+.sliderContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.introduction{
+    margin: 0 5% 5% 5%;
+}
+
+.paddingBot {
+    padding-bottom: 5%;
+}
+
+
+
+.certificationsInfo {
+    display: grid;
+    grid-template-rows: 1fr 1.8fr 1fr;
+    align-content: space-between;
+    justify-items: center;
+}
+
+.certifications > p {
+    font-weight: 300;
+    width: 80%;
+    display: grid;
+    padding: 0 10%;
+    font-size: 20px;
+}
+
+.certificationsLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+
+
+.certificationsInfoContainer {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    column-gap: 5%;
+    padding:  5% 7%;
+}
+
+.certificationsInfo > h2 {
+    font-family: system-ui;
+    font-size: 40px;
+    font-weight: 600;
+    color: #0073ba;
+}
+
+.partnership {
+    padding: 5% 0;
+}
+
+.ppgAnnouncement {
+    padding: 0 10% 5% 10%;
+    display: grid;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.greenAnnouncementContainer {
+    display: grid;
+    grid-gap: 2rem;
+    padding: 0 10% 10% 10%;
+    background-image: url(https://www.fastweb.com/uploads/article_photo/photo/2036160/Simple_Environment.jpeg);
+    opacity: 0.8;
+    background-color: #eff8ff;
+}
+
+.greenAnnouncementContainer > div > h2 {
+    font-family: system-ui;
+    font-size: 40px;
+    font-weight: 600;
+    color: #16a6ff;
+}
+
+.greenAnnouncementContainer > div > p {
+    font-family: system-ui;
+    color: #fff;
+}
+
+.sectionTitle {
+    text-align:center;
+    font-size: 47px;
+    font-family: auto;
+    font-style: italic;
+    font-weight: 300;
+    color: darkred;
+}
+.item {
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    margin: 2%;
+    transition: .3s;
+    opacity: .3;
+}
+
+.itemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.itemContainer:hover > :hover{
+    opacity: 1;   
+    border-radius: 20px;
+    border-color: #0073ba;
+    background-color: #d7ceff;
+}
+
+.headerIcons {
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.callUsIcon {
+    margin-right: 10px;
+    color: #0073ba;
+}
+
+.moduleContainer {
+    padding: 5%;
+}
+
+.moduleContainer > p {
+    font-weight: 300;
+    width: 80%;
+    display: grid;
+    padding: 0 10%;
+    font-size: 20px;
+}
+
+.showcaseContainer {
+    width: 50%;
+}
+
+.modulesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    justify-items: center;
+    margin: 5%;
+    gap: 2%;
+}
+
+.moduleButtonContainer {
+    background-color: #3e3e98;
+    border-radius: 15px;
+    height: 5rem;
+    width: 15rem;
+}
+
+.moduleButton {
+    height: 100%;
+    width: 100%;
+}
+
+.backToHomeIconButton {
+    width: 60px;
+    height: 60px;
+    background-color: #095684;
+    border-radius: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.certificationsExpand {
+    padding:5%;
+}
+.certificationsExpand > h2 {
+    color: #16a6ff;
+}
+.certificationsExpand > h2 > div {
+    font-size: 15px;
+    font-family: cursive;
+    color: #1c70a2;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.certificationsExpand > p {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.reviewLinksContainer {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    padding-left: 5%;
+    gap: 5%;
+}
+
+.reviewImgs {
+    width: -webkit-fill-available;
+}
