@@ -1,5 +1,5 @@
 # TEST DOMAIN & DEPLOY 
-HAOHUILIN.COM
+haohuilin.com
 
 # Getting Started with Create React App
 
