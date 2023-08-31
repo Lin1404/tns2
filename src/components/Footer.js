@@ -6,12 +6,8 @@ export default function Footer() {
   return (
     <div className="footerContainer backgroundColor">
       <div className="tnsTitle">
-        <img
-          src={tnsLogo}
-          alt="illustration"
-          // style={{ width: "5%", paddingRight: "0.5rem" }}
-        />
-        <h3>TNS Auto Collision</h3>
+        <img src={tnsLogo} alt="illustration" />
+        <h1>TNS Auto Collision</h1>
       </div>
       <div className="infoContainer">
         <div className="introduction">
@@ -52,7 +48,6 @@ export default function Footer() {
         <div className="map">
           <div className="infoDetail">
             <h4>Our Location</h4>
-            <div>TNS Auto Group</div>
             <div>1011 61st St</div>
             <div> Brooklyn, NY 11219</div>
           </div>

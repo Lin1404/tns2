@@ -2,10 +2,10 @@ import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 
 const modulesRouting = [
-  { path: "/tnsauto/drp", label: "DRP Partnerwith" },
-  { path: "/tnsauto/beforeandafter", label: "Before and After Photos" },
-  { path: "/tnsauto/team", label: "Our Team" },
-  { path: "/tnsauto/certifications", label: "Certifications" },
+  { path: "/drp", label: "DRP Partnerwith" },
+  { path: "/beforeandafter", label: "Before and After Photos" },
+  { path: "/team", label: "Our Team" },
+  { path: "/certifications", label: "Certifications" },
 ];
 
 export default function Modules() {
