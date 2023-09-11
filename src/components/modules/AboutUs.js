@@ -1,26 +1,62 @@
 import { useEffect } from "react";
 import Carousel from "../Carousel";
-import BackToHomeButton from "./BackToHomeButton";
 import office from "../../assets/Office.jpeg";
+import tnsShop from "../../assets/tnsShop.png";
 import ecoFriendly from "../../assets/ecoFriendly.png";
 import ppg2 from "../../assets/ppg2.jpeg";
-import { BackToHomeIcon } from "./BackToHomeButton";
+import Header from "./Header";
 
-const team = [office];
-
-export default function Team() {
+export default function AboutUs() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <div>
+      <Header />
       <div className="compareSections ">
-        <div className="backgroundColorWhite paddingTop " />
-        <BackToHomeButton />
-        <h2 className="sectionTitle">Our Team:</h2>
-        <Carousel imgs={team} />
+        <div className="backgroundColorWhite" />
+        <h2 className="sectionTitle">About Us:</h2>
+        <img
+          src={tnsShop}
+          alt="illustration"
+          style={{
+            width: "95%",
+            paddingBottom: "5%",
+          }}
+        />
       </div>
-      <div className="ppgAnnouncementContainer">
+      <div className="aboutUsContainer">
+        <img
+          src={office}
+          alt="illustration"
+          style={{
+            width: "90%",
+            justifySelf: "center",
+            alignSelf: "center",
+          }}
+        />
+        <div>
+          <h5>WHO WE ARE</h5>
+          <span>We are serving the community since 1995.</span>
+          <span>
+            With over 25 years of extensive expertise within the automotive
+            collision industry, we are your premier destination for
+            comprehensive vehicle repair services. Our unwavering commitment to
+            quality and safety underscores our mission. We proudly collaborate
+            with a wide array of leading insurance providers, holding the
+            esteemed certifications.
+          </span>
+          <span>
+            Whether you require assistance with insurance claims or require
+            meticulous reparations, rest assured that our team of highly skilled
+            technicians, bearing platinum I-CAR and ASE certifications, is at
+            your service. Your damaged vehicle is in capable hands, and our
+            exceptional customer service is here to guide you throughout the
+            process.
+          </span>
+        </div>
+      </div>
+      {/* <div className="ppgAnnouncementContainer">
         <img src={ecoFriendly} alt="illustration" style={{ width: "40%" }} />
         <div className="ppgAnnouncement">
           <h2>
@@ -89,8 +125,7 @@ export default function Team() {
             come.
           </p>
         </div>
-      </div>
-      <BackToHomeIcon />
+      </div> */}
       <div className="paddingBot" />
     </div>
   );
