@@ -1,7 +1,7 @@
 {
   "name": "tnsauto",
   "version": "1.1.0",
-  "homepage": "https://haohuilin.com",
+  "homepage": "https://haohuilin.com/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",

@@ -6,11 +6,11 @@ import instegramLogo from "../assets/instagramLogo.svg";
 import { useState } from "react";
 
 const modulesRouting = [
-  { path: "/tnsauto", label: "Home" },
-  { path: "/tnsauto/aboutus", label: "About Us" },
-  { path: "/tnsauto/drp", label: "DRP" },
-  { path: "/tnsauto/certifications", label: "Certifications" },
-  { path: "/tnsauto/gallery", label: "Gallery" },
+  { path: "/", label: "Home" },
+  { path: "//aboutus", label: "About Us" },
+  { path: "//drp", label: "DRP" },
+  { path: "//certifications", label: "Certifications" },
+  { path: "//gallery", label: "Gallery" },
 ];
 
 export default function Modules({ isButton = false }) {

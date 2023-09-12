@@ -11,32 +11,32 @@ import AboutUs from "./components/modules/AboutUs";
 
 const router = createBrowserRouter([
   {
-    path: "/tnsauto",
+    path: "/",
     element: <Home />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/tnsauto/gallery",
+    path: "//gallery",
     element: <Gallery />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/tnsauto/certifications",
+    path: "//certifications",
     element: <Certifications />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/tnsauto/drp",
+    path: "//drp",
     element: <DRP />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/tnsauto/repairprocess",
+    path: "//repairprocess",
     element: <RepairProcess />,
     errorElement: <ErrorPage />,
   },
   {
-    path: "/tnsauto/aboutus",
+    path: "//aboutus",
     element: <AboutUs />,
     errorElement: <ErrorPage />,
   },

@@ -34,7 +34,7 @@ export default function Header() {
   return width > 700 ? (
     <div className="header backgroundColor">
       <div className="headerGroup">
-        <Link to={"/tnsauto"}>
+        <Link to={"/"}>
           <img
             src={tnsLogo}
             alt="illustration"
@@ -54,7 +54,7 @@ export default function Header() {
   ) : (
     <div className="header backgroundColor">
       <div className="headerGroup">
-        <Link to={"/tnsauto"}>
+        <Link to={"/"}>
           <img
             src={tnsLogo}
             alt="illustration"
